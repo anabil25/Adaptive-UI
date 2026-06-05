@@ -20,7 +20,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-pnpm dlx sv@0.15.3 create --template library --types ts --add sveltekit-adapter="adapter:node" mdsvex mcp="ide:vscode+setup:remote" prettier eslint vitest="usages:unit,component" playwright paraglide="languageTags:en, es+demo:no" --install pnpm ./
+pnpm dlx sv@0.15.3 create --template library --types ts --add prettier eslint vitest="usages:unit,component" playwright mdsvex mcp="ide:vscode+setup:remote" --install pnpm ./
 ```
 
 ## Developing
